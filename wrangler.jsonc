@@ -1,7 +1,7 @@
 {
   "$schema": "node_modules/wrangler/config-schema.json",
-  "workers_dev": false,
   "name": "sink",
+  "workers_dev": false,
   "main": "dist/server/index.mjs",
   "assets": {
     "binding": "ASSETS",
